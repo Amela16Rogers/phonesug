@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecno Uganda - Official Tecno Phones & Accessories</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/log.png" alt=" Logo">
+                <span>Tecno Uganda</span>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Search Tecno products...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Latest Tecno Smartphones in Uganda</h1>
+                <p>Discover the newest Tecno phones with advanced features, premium cameras, and exceptional performance at unbeatable prices</p>
+                <div class="hero-buttons">
+                    <button class="cta-button">Shop Now</button>
+                    <button class="cta-button secondary">View Deals</button>
+                </div>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free Delivery in Kampala</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>1 Year Warranty</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Official Support</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Tecno Phones">
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">Tecno Product Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Smartphones</h3>
+                    <p>Latest Tecno phones with advanced features</p>
+                    <span class="category-count">12 Products</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <h3>Tablets</h3>
+                    <p>Tecno tablets for work and entertainment</p>
+                    <span class="category-count">5 Products</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3>Accessories</h3>
+                    <p>Cases, headphones, chargers and more</p>
+                    <span class="category-count">25 Products</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Repair Parts</h3>
+                    <p>Genuine Tecno replacement parts</p>
+                    <span class="category-count">18 Products</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Featured Tecno Phones</h2>
+            <div class="products-filter">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="camon">Camon Series</button>
+                <button class="filter-btn" data-filter="spark">Spark Series</button>
+                <button class="filter-btn" data-filter="pova">Pova Series</button>
+                <button class="filter-btn" data-filter="phantom">Phantom Series</button>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="camon">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Tecno Camon 20">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tecno Camon 20 Pro</h3>
+                        <p class="product-desc">108MP Camera | 8GB RAM | 256GB Storage</p>
+                        <div class="product-price">
+                            <span class="current-price">UGX 1,250,000</span>
+                            <span class="original-price">UGX 1,450,000</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(124 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart" data-product="1">Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="spark">
+                    <div class="product-badge new">New</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Tecno Spark 10">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tecno Spark 10 Pro</h3>
+                        <p class="product-desc">6.8" Display | 5000mAh | 8GB RAM</p>
+                        <div class="product-price">
+                            <span class="current-price">UGX 650,000</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(89 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart" data-product="2">Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="pova">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Tecno Pova 5">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tecno Pova 5</h3>
+                        <p class="product-desc">7000mAh Battery | Gaming Phone | 8GB RAM</p>
+                        <div class="product-price">
+                            <span class="current-price">UGX 850,000</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(156 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart" data-product="3">Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="phantom">
+                    <div class="product-badge premium">Premium</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Tecno Phantom X2">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tecno Phantom X2 Pro</h3>
+                        <p class="product-desc">Flagship | Retractable Camera | 12GB RAM</p>
+                        <div class="product-price">
+                            <span class="current-price">UGX 2,150,000</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(67 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart" data-product="4">Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Banner -->
+    <section class="promo-banner">
+        <div class="container">
+            <div class="promo-content">
+                <h2>Limited Time Offer!</h2>
+                <p>Get 15% off on all Tecno Camon Series with free delivery</p>
+                <button class="cta-button">Shop Now</button>
+            </div>
+            <div class="promo-timer">
+                <div class="timer-item">
+                    <span id="days">00</span>
+                    <span>Days</span>
+                </div>
+                <div class="timer-item">
+                    <span id="hours">00</span>
+                    <span>Hours</span>
+                </div>
+                <div class="timer-item">
+                    <span id="minutes">00</span>
+                    <span>Minutes</span>
+                </div>
+                <div class="timer-item">
+                    <span id="seconds">00</span>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Tecno Uganda</h2>
+                    <p>We are the official distributor of Tecno Mobile devices in Uganda, bringing you the latest smartphones and accessories with genuine warranty and after-sales support.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100% Genuine Products</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Official Warranty</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Free Delivery in Kampala</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Professional Support</span>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>50,000+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>12+</h3>
+                            <p>Years in Uganda</p>
+                        </div>
+                        <div class="stat">
+                            <h3>25+</h3>
+                            <p>Service Centers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Tecno Store">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Our Location</h4>
+                            <p>Kampala Road, Kampala, Uganda</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone Number</h4>
+                            <p>+256 776 766643</p>
+                            <p>+256 757 275509</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p>info@tecnouganda.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Monday - Saturday: 8:00 AM - 6:00 PM</p>
+                            <p>Sunday: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+        <!-- Admin Panel (Hidden by default) -->
+        <section id="admin" class="admin-panel" style="display: none;">
+            <div class="container">
+                <div class="admin-header">
+                    <h2 class="section-title">Admin Panel - Product Management</h2>
+                    <button class="cta-button secondary" onclick="toggleAdminPanel()">Close Admin</button>
+                </div>
+                
+                <div class="admin-content">
+                    <!-- Add Product Form -->
+                    <div class="admin-section">
+                        <h3>Add New Product</h3>
+                        <form id="addProductForm" class="admin-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="productName">Product Name</label>
+                                    <input type="text" id="productName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="productCategory">Category</label>
+                                    <select id="productCategory" required>
+                                        <option value="camon">Camon Series</option>
+                                        <option value="spark">Spark Series</option>
+                                        <option value="pova">Pova Series</option>
+                                        <option value="phantom">Phantom Series</option>
+                                        <option value="accessories">Accessories</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="productPrice">Price (UGX)</label>
+                                    <input type="number" id="productPrice" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="productOriginalPrice">Original Price (UGX) - Optional</label>
+                                    <input type="number" id="productOriginalPrice">
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="productDescription">Description</label>
+                                    <textarea id="productDescription" rows="3" required></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="productImage">Image URL</label>
+                                    <input type="url" id="productImage" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="productBadge">Badge Type</label>
+                                    <select id="productBadge">
+                                        <option value="">No Badge</option>
+                                        <option value="best-seller">Best Seller</option>
+                                        <option value="new">New</option>
+                                        <option value="premium">Premium</option>
+                                        <option value="sale">On Sale</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="productStock">Stock Quantity</label>
+                                    <input type="number" id="productStock" value="10" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="productRating">Rating (1-5)</label>
+                                    <input type="number" id="productRating" min="1" max="5" step="0.1" value="4.5" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-actions">
+                                <button type="submit" class="cta-button">Add Product</button>
+                                <button type="button" class="cta-button secondary" onclick="clearProductForm()">Clear Form</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <!-- Manage Products -->
+                    <div class="admin-section">
+                        <h3>Manage Products</h3>
+                        <div class="products-search">
+                            <input type="text" id="adminSearch" placeholder="Search products..." onkeyup="filterAdminProducts()">
+                            <span id="productCount">0 products found</span>
+                        </div>
+                        
+                        <div class="admin-products-grid" id="adminProductsGrid">
+                            <!-- Products will be loaded here dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Admin Login Modal -->
+        <div id="adminLoginModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Admin Login</h3>
+                    <button class="close-modal" onclick="closeAdminLogin()">&times;</button>
+                </div>
+                <form id="adminLoginForm">
+                    <div class="form-group">
+                        <label for="adminUsername">Username</label>
+                        <input type="text" id="adminUsername" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="adminPassword">Password</label>
+                        <input type="password" id="adminPassword" required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="cta-button">Login</button>
+                        <button type="button" class="cta-button secondary" onclick="closeAdminLogin()">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Tecno_Mobile_logo.svg/1200px-Tecno_Mobile_logo.svg.png" alt="Tecno Logo">
+                        <span>Tecno Uganda</span>
+                    </div>
+                    <p>Your trusted partner for genuine Tecno smartphones and accessories in Uganda.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Camon Series</a></li>
+                        <li><a href="#">Spark Series</a></li>
+                        <li><a href="#">Pova Series</a></li>
+                        <li><a href="#">Phantom Series</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">Repair Services</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get updates on new products and offers</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tecno Uganda. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <!-- Cart Sidebar -->
+        <div class="cart-sidebar">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="close-cart">&times;</button>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be added here dynamically -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-price">UGX 0</span>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+                <button class="continue-shopping">Continue Shopping</button>
+            </div>
+        </div>
+        <div class="cart-overlay"></div>div>
+
+    <script src="script.js"></script>
+</body>
+</html>
